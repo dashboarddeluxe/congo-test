@@ -17,7 +17,7 @@ enableImageLazyLoading = false
 fingerprintAlgorithm = "sha256"
 
 [header]
-  layout = "basic" # valid options: basic, hamburger, hybrid, custom
+  layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
   # logo = "img/logo.jpg"
   # logoDark = "img/dark-logo.jpg"
   showTitle = true
@@ -31,14 +31,14 @@ fingerprintAlgorithm = "sha256"
 [homepage]
   layout = "custom" # valid options: page, profile, custom
   showRecent = true
-  recentLimit = 5
+  recentLimit = 10
 
 [article]
   showDate = true
-  showDateUpdated = false
+  showDateUpdated = true
   showAuthor = true
   showBreadcrumbs = true
-  showDraftLabel = true
+  showDraftLabel = false
   showEdit = false
   editURL = "https://github.com/jpanther/congo/tree/dev/exampleSite/content/"
   editAppendPath = true
