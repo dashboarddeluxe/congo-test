@@ -26,6 +26,8 @@
         {{ with $resource }}
           {{ if eq .MediaType.SubType "svg" }}
             src="{{ .RelPermalink }}"
+            width="1024px"
+            height="768px"
           {{ else }}
             {{ if lt .Width 660 }}
               src="{{ .RelPermalink }}"
