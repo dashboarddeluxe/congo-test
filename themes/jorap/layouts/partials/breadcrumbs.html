@@ -1,4 +1,4 @@
-<ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+<ol class="text-md text-neutral-500 dark:text-neutral-400 print:hidden">
   {{ template "crumb" (dict "p1" . "p2" .) }}
 </ol>
 {{ define "crumb" }}
@@ -16,6 +16,6 @@
       {{ else }}
         {{- .p1.Section -}}
       {{ end }}</a
-    ><span class="px-1 text-primary-500">/</span>
+    ><!-- <span class="px-1 text-primary-500">/</span> -->
   </li>
 {{ end }}
