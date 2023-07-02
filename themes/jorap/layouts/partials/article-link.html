@@ -17,13 +17,15 @@
           {{ if eq .MediaType.SubType "svg" }}
             class="w-24 max-w-[6rem] max-h-[4.5rem] rounded-md sm:max-h-[7.5rem] sm:w-40
             sm:max-w-[10rem]" src="{{ .RelPermalink }}"
+            width="160px"
+            height="120px"
           {{ else }}
             class="w-24 rounded-md sm:w-40" srcset="
-            {{- (.Fill "160x120 smart").RelPermalink }}
-            160w, {{- (.Fill "320x240 smart").RelPermalink }} 2x"
-            src="{{ (.Fill "160x120 smart").RelPermalink }}"
-            width="{{ (.Fill "160x120 smart").Width }}"
-            height="{{ (.Fill "160x120 smart").Height }}"
+            {{- (.Fill "160x120 webp smart").RelPermalink }}
+            160w, {{- (.Fill "320x240 webp smart").RelPermalink }} 2x"
+            src="{{ (.Fill "160x120 webp smart").RelPermalink }}"
+            width="{{ (.Fill "160x120 webp smart").Width }}"
+            height="{{ (.Fill "160x120 webp smart").Height }}"
           {{ end }}
           {{ if $.Site.Params.enableImageLazyLoading | default true }}
             loading="lazy"
