@@ -19,15 +19,21 @@
             class="mb-6 -mt-4 rounded-md"
             {{ if eq .MediaType.SubType "svg" }}
               src="{{ .RelPermalink }}"
+              width="1024px"
+              height="768px"
             {{ else }}
               {{ if lt .Width 660 }}
                 src="{{ .RelPermalink }}"
+                width="{{ .Width }}"
+                height="{{ .Height }}"
               {{ else }}
                 srcset="
                 {{- (.Resize "330x").RelPermalink }} 330w,
                 {{- (.Resize "660x").RelPermalink }} 660w,
                 {{- (.Resize "1024x").RelPermalink }} 1024w,
                 {{- (.Resize "1320x").RelPermalink }} 2x"
+                width="{{ (.Resize "660x").Width }}"
+                height="{{ (.Resize "660x").Height }}"
               {{ end }}
             {{ end }}
             alt="{{ $.Params.featureAlt | default $.Params.coverAlt | default "" }}"
