@@ -296,9 +296,9 @@ With the projects defined, now we can create a list template that outputs the de
             </span>
           </div>
           <div>
-            <h3 class="flex text-xl font-semibold">
+            <h2 class="flex text-xl font-semibold">
               {{ .Title }}
-            </h3>
+            </h2>
             <p class="text-sm text-neutral-400">
               {{ .Description }}
             </p>

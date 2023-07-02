@@ -35,7 +35,7 @@
     </div>
   {{- end }}
   <div>
-    <h3 class="flex items-center text-xl font-semibold">
+    <h2 class="flex items-center text-xl font-semibold">
       {{ with .Params.externalUrl }}
         <div>
           <a
@@ -68,7 +68,7 @@
       {{ if templates.Exists "partials/extend-article-link.html" }}
         {{ partial "extend-article-link.html" . }}
       {{ end }}
-    </h3>
+    </h2>
     <div class="text-sm text-neutral-500 dark:text-neutral-400">
       {{ partial "article-meta.html" . }}
     </div>
