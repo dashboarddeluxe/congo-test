@@ -47,7 +47,7 @@ fingerprintAlgorithm = "sha256"
   invertPagination = false
   showReadingTime = true
   showTableOfContents = true
-  showTaxonomies = false
+  showTaxonomies = true
   showWordCount = false
   showComments = false
   # sharingLinks = ["facebook", "twitter", "mastodon", "pinterest", "reddit", "linkedin", "email"]
@@ -56,7 +56,7 @@ fingerprintAlgorithm = "sha256"
   showBreadcrumbs = true
   showSummary = false
   showTableOfContents = true
-  showTaxonomies = false
+  showTaxonomies = true
   groupByYear = false
   paginationWidth = 1
 
