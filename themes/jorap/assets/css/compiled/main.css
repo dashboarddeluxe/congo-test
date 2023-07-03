@@ -2124,10 +2124,6 @@ body:has(#menu-controller:checked) {
   border-width: 1px;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
 .border-t {
   border-top-width: 1px;
 }
@@ -2218,6 +2214,10 @@ body:has(#menu-controller:checked) {
 
 .p-1 {
   padding: 0.25rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .p-4 {
@@ -2311,6 +2311,11 @@ body:has(#menu-controller:checked) {
 .pe-5 {
   -webkit-padding-end: 1.25rem;
           padding-inline-end: 1.25rem;
+}
+
+.ps-0 {
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
 }
 
 .ps-2 {
@@ -2986,10 +2991,6 @@ body:has(#menu-controller:checked) {
 
   .lg\:order-last {
     order: 9999;
-  }
-
-  .lg\:hidden {
-    display: none;
   }
 
   .lg\:w-1\/4 {
