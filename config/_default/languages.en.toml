@@ -12,7 +12,7 @@ copyright = "&copy; 2023 Jon Rapusas"
 
   dateFormat = "2 January 2006"
 
-  mainSections = ["samples"]
+  mainSections = ["blog"]
   description = "A powerful, lightweight theme for Hugo built with Tailwind CSS."
 
 [author]

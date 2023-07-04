@@ -21,11 +21,11 @@
             height="120px"
           {{ else }}
             class="w-24 rounded-md sm:w-40" srcset="
-            {{- (.Fill "160x120 webp smart").RelPermalink }}
-            160w, {{- (.Fill "320x240 webp smart").RelPermalink }} 2x"
-            src="{{ (.Fill "160x120 webp smart").RelPermalink }}"
-            width="{{ (.Fill "160x120 webp smart").Width }}"
-            height="{{ (.Fill "160x120 webp smart").Height }}"
+            {{- (.Fit "160x120 webp smart").RelPermalink }}
+            160w, {{- (.Fit "320x240 webp smart").RelPermalink }} 2x"
+            src="{{ (.Fit "160x120 webp smart").RelPermalink }}"
+            width="{{ (.Fit "160x120 webp smart").Width }}"
+            height="{{ (.Fit "160x120 webp smart").Height }}"
           {{ end }}
           {{ if $.Site.Params.enableImageLazyLoading | default true }}
             loading="lazy"
