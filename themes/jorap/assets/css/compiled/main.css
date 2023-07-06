@@ -2543,6 +2543,11 @@ body:has(#menu-controller:checked) {
   text-decoration-color: rgba(var(--color-primary-500), 1);
 }
 
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .opacity-0 {
   opacity: 0;
 }
