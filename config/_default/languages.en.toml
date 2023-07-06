@@ -6,8 +6,8 @@ title = "Congo Test"
 copyright = "&copy; 2023 Congo Test"
 
 [params]
-  isoCode = "en-AU"
-  displayName = ":flag-au:"
+  isoCode = "en-US"
+  displayName = ":flag-us:"
   rtl = false
 
   dateFormat = "2 January 2006"
