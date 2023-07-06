@@ -3,6 +3,18 @@
 @tailwind base;
 @tailwind components;
 
+@font-face {
+  font-family: 'Inter';
+  font-weight: normal;
+  font-style: normal;
+  src: url('/woff2/Inter.var.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-weight: bold;
+  src: url('/woff2/Inter.var.woff2') format('woff2');
+}
+
 body a,
 body button {
   @apply transition-colors;
