@@ -12,5 +12,5 @@ tags = ["blog", "minimal", "responsive", "dark mode", "dark", "light", "tailwind
 features = ["syntax higlighting", "dark mode", "emoji"]
 
 [author]
-  name = "Jon Rapusas"
-  homepage = "https://jorap.com/"
+  name = "Congo Test"
+  homepage = "https://test-static.jorap.com/"

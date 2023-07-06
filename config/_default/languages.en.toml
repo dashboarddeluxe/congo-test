@@ -3,7 +3,7 @@ languageName = "English"
 weight = 1
 
 title = "Congo Test"
-copyright = "&copy; 2023 Jon Rapusas"
+copyright = "&copy; 2023 Congo Test"
 
 [params]
   isoCode = "en-AU"
