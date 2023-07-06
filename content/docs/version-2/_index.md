@@ -19,7 +19,7 @@ Continue reading below to discover what's new. When you're ready to upgrade, che
 
 Tailwind CSS is at the heart of Congo and this new release contains the very latest [Tailwind CSS version 3](https://tailwindcss.com/blog/tailwindcss-v3). It brings with it performance optimisations and support for some great new CSS features.
 
-{{< youtube "TmWIrBPE6Bc" >}}
+{{< lite-youtube "TmWIrBPE6Bc" >}}
 
 Implementing this new version has also removed some Tailwind plugin dependencies from the theme, allowing the overall footprint to remain lightweight.
 
