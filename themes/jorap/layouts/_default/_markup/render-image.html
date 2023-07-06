@@ -36,13 +36,13 @@
             height="{{ .Height }}"
           {{ else }}
             srcset="
-            {{- (.Resize "330x webp").RelPermalink }} 330w,
-            {{- (.Resize "660x webp").RelPermalink }} 660w,
-            {{- (.Resize "1024x webp").RelPermalink }} 1024w,
-            {{- (.Resize "1320x webp").RelPermalink }} 2x"
-            src="{{ (.Resize "660x webp").RelPermalink }}"
-            width="{{ (.Resize "660x webp").Width }}"
-            height="{{ (.Resize "660x webp").Height }}"
+            {{- (.Resize "330x webp q80").RelPermalink }} 330w,
+            {{- (.Resize "660x webp q80").RelPermalink }} 660w,
+            {{- (.Resize "1024x webp q80").RelPermalink }} 1024w,
+            {{- (.Resize "1320x webp q80").RelPermalink }} 2x"
+            src="{{ (.Resize "660x webp q80").RelPermalink }}"
+            width="{{ (.Resize "660x webp q80").Width }}"
+            height="{{ (.Resize "660x webp q80").Height }}"
           {{ end }}
         {{ end }}
         alt="{{ $altText }}"
