@@ -1,4 +1,4 @@
-baseURL = 'https://congo-test.pages.dev/'
+baseURL = 'https://test-static.jorap.com/'
 languageCode = 'en-us'
 title = 'Congo Test'
 disableHugoGeneratorInject = 'true'
